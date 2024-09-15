@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Refresh item -->
+    <item android:title="@string/refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh"/>
+
+    <!-- Settings item -->
+    <item android:title="@string/settings"
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>

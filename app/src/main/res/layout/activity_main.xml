@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="0dp"
+        android:id="@+id/appBar"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/hori_view"
+        app:layout_constraintTop_toBottomOf="@id/hori"
+        android:background="?attr/colorPrimary"
+        android:layout_marginVertical="4dp"
+        android:layout_marginHorizontal="16dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hori"
+        android:elevation="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@id/appBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/area"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/area"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:padding="8dp"
+                android:id="@+id/length"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/length"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:padding="8dp"
+
+                android:id="@+id/temperature"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/temperature"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/volume"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/volume"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/mass"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/mass"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/data"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/data"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:padding="8dp"
+                android:id="@+id/speed"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/speed"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/time"
+                android:padding="8dp"
+
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/time"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize"
+                android:id="@+id/tip"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:text="@string/tip"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/conatiner"
+        app:layout_constraintTop_toBottomOf="@id/hori"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

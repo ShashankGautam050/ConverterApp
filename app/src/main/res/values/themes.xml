@@ -1,0 +1,16 @@
+<!-- In res/values/styles.xml (for light theme) -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme for light mode. -->
+    <style name="Base.Theme.UnitConverter.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Light theme colors -->
+        <item name="colorPrimary">@color/F1</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="colorAccent">@color/e</item>
+
+    </style>
+
+    <style name="Theme.UnitConverter" parent="Base.Theme.UnitConverter.Light">
+        <!-- You can add specific customizations here -->
+    </style>
+    <color name="black">@android:color/black</color>
+</resources>

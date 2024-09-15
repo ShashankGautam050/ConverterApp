@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="area">Area</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="subtitle">Change is the nature of law</string>
+    <string name="length">Length</string>
+    <string name="temperature">Temperature</string>
+    <string name="volume">Volume</string>
+    <string name="mass">Mass</string>
+    <string name="data">Data</string>
+    <string name="speed">Speed</string>
+    <string name="time">Time</string>
+    <string name="tip">Tip</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="square">Square</string>
+    <string name="enter_the_value_to_convert">Enter the value to convert</string>
+    <string name="_0_0">0</string>
+    <string name="tip_amount">Tip Amount :</string>
+    <string name="_100">Example - ₹ 100</string>
+    <string name="tip_percent">Tip Percent</string>
+    <string name="subtotal">Subtotal :</string>
+    <string name="tip_val">₹ 0</string>
+    <string name="number_of_people">Number of people</string>
+    <string name="each">Each</string>
+
+    <string-array name="unit_area">
+        <item>Square Meter (m\u00B2)</item>
+        <item>Square Kilometer (km\u00B2)</item>
+        <item>Square Mile (mi\u00B2)</item>
+        <item>Square Yard (yd\u00B2)</item>
+        <item>Square Foot (ft\u00B2)</item>
+        <item>Square Inch (in\u00B2)</item>
+        <item>Acre (ac)</item>
+        <item>Hectare (ha)</item>
+    </string-array>
+
+    <string-array name="unit_data_storage">
+        <item>Bit (b)</item>
+        <item>Nibble</item>
+        <item>Byte (B)</item>
+        <item>Kilobyte (KB)</item>
+        <item>Megabyte (MB)</item>
+        <item>Gigabyte (GB)</item>
+        <item>Terabyte (TB)</item>
+        <item>Petabyte (PB)</item>
+        <item>Exabyte (EB)</item>
+        <item>Zetta byte (ZB)</item>
+        <item>Yotta byte (YB)</item>
+    </string-array>
+
+    <string-array name="unit_of_length">
+        <item>Meter (m)</item>
+        <item>Kilometer (km)</item>
+        <item>Mile (mi)</item>
+        <item>Yard (yd)</item>
+        <item>Foot (ft)</item>
+        <item>Inch (in)</item>
+        <item>Nautical Mile (nmi)</item>
+        <item>Centimeter (cm)</item>
+        <item>Millimeter (mm)</item>
+        <item>Micrometer (\u00B5m)</item>
+        <item>Nanometer (nm)</item>
+    </string-array>
+
+    <string-array name="unit_of_mass">
+        <item>Kilogram (kg)</item>
+        <item>Gram (g)</item>
+        <item>Pound (lb)</item>
+        <item>Ounce (oz)</item>
+        <item>Metric Ton (t)</item>
+        <item>Short Ton (st)</item>
+        <item>Stone (st)</item>
+        <item>Carat (ct)</item>
+        <item>Milligram (mg)</item>
+        <item>Micrograms (\u00B5g)</item>
+        <item>Long Ton (lt)</item>
+    </string-array>
+
+    <string-array name="unit_of_speed">
+        <item>Meter per Second (m/s)</item>
+        <item>Kilometer per Hour (km/h)</item>
+        <item>Foot per Second (ft/s)</item>
+        <item>Mile per Hour (mph)</item>
+        <item>Knot (kn)</item>
+        <item>Mach (at sea level)</item>
+    </string-array>
+
+    <string-array name="unit_temperature">
+        <item>Celsius (\u00B0C)</item>
+        <item>Fahrenheit (\u00B0F)</item>
+        <item>Kelvin (K)</item>
+        <item>Rankine (\u00B0R)</item>
+    </string-array>
+
+    <string-array name="unit_time">
+        <item>Second (s)</item>
+        <item>Minute (m)</item>
+        <item>Hour (h)</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+        <item>Millisecond (ms)</item>
+        <item>Microsecond (\u00B5s)</item>
+        <item>Nanosecond (ns)</item>
+    </string-array>
+
+    <string-array name="unit_volume">
+        <item>Liter (L)</item>
+        <item>Milliliter (mL)</item>
+        <item>Cubic Meter (m\u00B3)</item>
+        <item>Cubic Centimeter (cm\u00B3)</item>
+        <item>Cubic Inch (in\u00B3)</item>
+        <item>Cubic Foot (ft\u00B3)</item>
+        <item>Gallon (US)</item>
+        <item>Gallon (UK)</item>
+        <item>Quart (US)</item>
+        <item>Quart (UK)</item>
+        <item>Pint (US)</item>
+        <item>Pint (UK)</item>
+        <item>Fluid Ounce (US)</item>
+        <item>Fluid Ounce (UK)</item>
+        <item>Tablespoon (US)</item>
+        <item>Teaspoon (US)</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>USD - US Dollar</item>
+        <item>EUR - Euro</item>
+        <item>JPY - Japanese Yen</item>
+        <item>GBP - British Pound</item>
+        <item>AUD - Australian Dollar</item>
+        <item>CAD - Canadian Dollar</item>
+        <item>CHF - Swiss Franc</item>
+        <item>CNY - Chinese Yuan</item>
+        <item>SEK - Swedish Krona</item>
+        <item>NZD - New Zealand Dollar</item>
+        <item>INR - Indian Rupee</item>
+    </string-array>
+</resources>

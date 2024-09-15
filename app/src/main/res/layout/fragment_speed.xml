@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Speed">
+    <Spinner
+        android:id="@+id/spinnerFromDrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/spinnerFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="100"
+        android:gravity="end"
+
+        android:hint="@string/_0_0"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:background="@android:color/transparent"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerFromDrop" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/hori_view1"
+        app:layout_constraintTop_toBottomOf="@id/spinnerFrom"
+        android:background="?attr/colorPrimary"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerToDrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hori_view1" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/spinnerToScroll"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerToDrop">
+        <TextView
+            android:id="@+id/spinnerTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="100"
+            android:layout_gravity="end"
+            android:textColor="?attr/colorAccent"
+            android:background="@android:color/transparent"
+            android:minHeight="48dp"
+            android:textSize="28sp"
+            />
+    </androidx.core.widget.NestedScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/hori_view"
+        app:layout_constraintTop_toBottomOf="@id/spinnerToScroll"
+        android:background="?attr/colorPrimary"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

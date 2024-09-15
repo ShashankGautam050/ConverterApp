@@ -1,0 +1,14 @@
+<!-- In res/values-night/styles.xml (for dark theme) -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.UnitConverter.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">@color/F2</item>
+        <item name="colorAccent">@color/e</item>
+    </style>
+
+    <style name="Theme.UnitConverter" parent="Base.Theme.UnitConverter.Dark">
+        <!-- You can add specific customizations here -->
+    </style>
+    <color name="black">@android:color/white</color>
+</resources>
